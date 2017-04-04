@@ -41,6 +41,10 @@ header h1{
   font-family: Spirax;
 }
 
+h2{
+  font-family: Spirax;
+}
+
 input{
   display: none;
 }
@@ -99,7 +103,7 @@ ul{
 }
 
 footer nav {
-  width: 50%;
+  width: 100%;
   float: left;
   margin: 0;
   padding: 0 0 1em 0; /* = margin-bottom */
