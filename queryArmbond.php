@@ -1,6 +1,6 @@
 <?php
 	try {
-		$sql = "select * FROM tobbadesign";
+		$sql = "select * FROM armbond";
 		// PDO->query(); er notað fyrir SELECT statements ONLY, skilar object af POOStatement class
 		$result = $pdo ->query($sql);
 
@@ -9,6 +9,6 @@
 	}
 	// fetch() sækir eina röð í einu frá database.
 	while ($row = $result -> fetch()) {
-		$mynd[] = array($row['nafn'], $row['mynd'], $row['uplisingar']);
+		$hringur[] = array($row['nafn'], $row['mynd'], $row['uplisingar']);
 	}
 ?>

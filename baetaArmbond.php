@@ -1,6 +1,6 @@
 <?php
-    include "connection.php";
-    include "queryHringir.php";
+    include "connect.php";
+    include "queryArmbond.php";
 
 ?>
 
@@ -8,15 +8,16 @@
 <html lang="is">
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <title>Food sign up</title>
   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="stilsida8.css">
+  <link rel="stylesheet" href="stilsidaAdd.css">
 
 </head>
 <body>
 
-<form action="input3.php" method="POST">
+<form action="inputArmbond.php" method="POST">
   <div class="imgcontainer">
     <img src="myndir/img_mf.jpg" alt="Avatar" class="avatar">
   </div>
@@ -32,11 +33,11 @@
     <input type="text" placeholder="Uplsingar" name="uplsingar" required>
 
     <button type="submit">Sign up</button>
-    <input type="checkbox" checked="checked"> I wish I were a robot
+    <input type="checkbox" required> I agree to terms
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
-    <a href="mutantFood.html"><button type="button" class="cancelbtn">Cancel</button></a>
+    <a href="armbond.html"><button type="button" class="cancelbtn">Cancel</button></a>
   </div>
 </form>
 
