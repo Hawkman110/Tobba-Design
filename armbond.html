@@ -29,5 +29,13 @@
         </ul></nav>
     </header>
 
+    <?php
+
+      foreach ($armbond as $entry) {
+        echo '<p> ' . "nafn = " . $entry[0] . "." . '<br> <img src="' . $entry[1] . "." . " " . "uplisingar = " . $entry[2] . "." . " " . "verd = " . $entry[3] . 'style="width:304p"';
+      }
+
+    ?>
+
   </body>
 </html>

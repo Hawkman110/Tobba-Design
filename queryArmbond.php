@@ -9,6 +9,6 @@
 	}
 	// fetch() sækir eina röð í einu frá database.
 	while ($row = $result -> fetch()) {
-		$hringur[] = array($row['nafn'], $row['mynd'], $row['uplisingar']);
+		$armbond[] = array($row['nafn'], $row['mynd'], $row['uplisingar'], $row['verd'] );
 	}
 ?>

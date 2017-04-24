@@ -2,10 +2,11 @@
 $servername = "10.200.10.24";
 $username = "1801993229";
 $password = "Thehawk110";
-$dbname = "1801993229_myndir";
+$dbname = "1801993229_tobbadesign";
 $nafn = $_POST['nafn'];
 $mynd = $_POST['mynd'];
 $uplisingar = $_POST['uplisingar'];
+$verd = $_POST['verd'];
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -13,8 +14,8 @@ if ($conn->connect_error) {
 	die("connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO armbond (nafn, mynd, uplisingar)
-VALUES (\"$nafn\", \"$mynd\", \"$uplisingar\" )";
+$sql = "INSERT INTO armbond (nafn, mynd, uplisingar, verd)
+VALUES (\"$nafn\", \"$mynd\", \"$uplisingar\", \"$verd\" )";
 
 if ($conn->query($sql) === TRUE) {
 	echo "New record created successfully";

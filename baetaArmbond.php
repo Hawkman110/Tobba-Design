@@ -19,7 +19,7 @@
 
 <form action="inputArmbond.php" method="POST">
   <div class="imgcontainer">
-    <img src="myndir/img_mf.jpg" alt="Avatar" class="avatar">
+    <img src="myndir/armband_til_sinis.jpg" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
@@ -29,14 +29,16 @@
     <label><b>Mynd</b></label>
     <input type="text" placeholder="Myndavefslod" name="mynd" required>
 
-    <label><b>Uplísingar</b></label>
-    <input type="text" placeholder="Uplsingar" name="uplsingar" required>
+    <label><b>Verð</b></label>
+    <input type="text" placeholder="Verð" name="verd" required>
 
-    <button type="submit">Sign up</button>
-    <input type="checkbox" required> I agree to terms
+    <label><b>Uplísingar</b></label>
+    <input type="text" placeholder="Uplsingar" name="uplisingar" required>
+
+    <button type="submit">Bæta við</button>
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
+  <div class="container" style="background-color:#FFCDD2">
     <a href="armbond.html"><button type="button" class="cancelbtn">Cancel</button></a>
   </div>
 </form>
