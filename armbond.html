@@ -1,6 +1,7 @@
 <?php
 	include "connect.php";
 	include "queryArmbond.php";
+  include "baetaArmbond.php";
 
 ?>
 
@@ -32,8 +33,8 @@
     <?php
 
       foreach ($armbond as $entry) {
-        echo '<p> ' . "nafn = " . $entry[0] . "." . '<br> <img src="' . $entry[1] . "." . " " . "uplisingar = " . $entry[2] . "." . " " . "verd = " . $entry[3] . 'style="width:304p"';
-      }
+    echo '<p> ' . "nafn = " . $entry[0] . "." . " " . "verd = " .  $entry[2] . "." . '<br> <img src="' . $entry[1] . "." . " " . "verd = " .  $entry[3] . '" style="width:304p"';
+  }
 
     ?>
 

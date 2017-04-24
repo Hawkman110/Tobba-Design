@@ -10,7 +10,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <title>Food sign up</title>
+  <title>Baeta vid skarti</title>
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="stilsidaAdd.css">
 
@@ -30,10 +30,10 @@
     <input type="text" placeholder="Myndavefslod" name="mynd" required>
 
     <label><b>Verð</b></label>
-    <input type="text" placeholder="Verð" name="verd" required>
+    <input type="text" placeholder="verd" name="uplsingar" required>
 
     <label><b>Uplísingar</b></label>
-    <input type="text" placeholder="Uplsingar" name="uplisingar" required>
+    <input type="text" placeholder="Uplsingar" name="uplsingar" required>
 
     <button type="submit">Bæta við</button>
   </div>
