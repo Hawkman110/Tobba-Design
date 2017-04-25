@@ -42,6 +42,13 @@
     <a href="armbond.html"><button type="button" class="cancelbtn">Cancel</button></a>
   </div>
 </form>
+  <?php
+    echo '<p> ' ."Konni".'</p> ';
+      print_r($armbond);
+      foreach ($armbond as $entry) {
+    echo '<p> ' . "nafnkkk = " . $entry[0] . "." . " " . "verd = " .  $entry[3] . "." . " " . '<br>' . "uplisingar = " .  $entry[2] . "." . '<br> <img src="' . $entry[1] . '" style="width:304p"';
+  }
 
+    ?>
 </body>
 </html>
