@@ -33,7 +33,7 @@
     echo '<p> ' ."Konni".'</p> ';
       print_r($armbond);
       foreach ($armbond as $entry) {
-    echo '<p> ' . "nafnkkk = " . $entry[0] . "." . " " . "verd = " .  $entry[2] . "." . '<br> <img src="' . $entry[1] . "." . " " . "uplisingar = " .  $entry[3] . '" style="width:304p"';
+    echo '<p> ' . "nafnkkk = " . $entry[0] . "." . " " . "verd = " .  $entry[2] . "." . '<br> <img src="' . $entry[1] .'">'. "." . " " . "uplisingar = " .  $entry[3] . '" style="width:304p"';
     }
 
     ?>
