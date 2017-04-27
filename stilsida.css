@@ -59,6 +59,7 @@ input:checked + label span{
   transform: rotate(90deg);
 }
 
+
 label{
   padding: 10px;
   font-size: 20px;

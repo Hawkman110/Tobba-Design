@@ -30,7 +30,7 @@
     <input type="text" placeholder="Myndavefslod" name="mynd" required>
 
     <label><b>Verð</b></label>
-    <input type="text" placeholder="verd" name="uplsingar" required>
+    <input type="text" placeholder="verð" name="verd" required>
 
     <label><b>Uplísingar</b></label>
     <input type="text" placeholder="Uplsingar" name="uplsingar" required>
@@ -39,16 +39,8 @@
   </div>
 
   <div class="container" style="background-color:#FFCDD2">
-    <a href="armbond.html"><button type="button" class="cancelbtn">Cancel</button></a>
+    <a href="armbond.php"><button type="button" class="cancelbtn">Cancel</button></a>
   </div>
 </form>
-  <?php
-    echo '<p> ' ."Konni".'</p> ';
-      print_r($armbond);
-      foreach ($armbond as $entry) {
-    echo '<p> ' . "nafnkkk = " . $entry[0] . "." . " " . "verd = " .  $entry[3] . "." . " " . '<br>' . "uplisingar = " .  $entry[2] . "." . '<br> <img src="' . $entry[1] . '" style="width:304p"';
-  }
-
-    ?>
 </body>
 </html>

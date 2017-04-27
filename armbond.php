@@ -22,6 +22,7 @@
         <label for="toggle">Menu <span>&#9776;</span></label>
         <nav><ul> 
             <li><a href="index.html">Heim</a></li>
+            <li><a href="armbond.php">armbond</a></li>
             <li><a href="hringir.html">Hringir</a></li>
             <li><a href="#">Hálsmenn</a></li>
             <li><a href="#">Eyrnalokkar</a></li>
@@ -30,11 +31,11 @@
     </header>
 
     <?php
-    echo '<p> ' ."Konni".'</p> ';
-      print_r($armbond);
+      echo "<div class='skart'>";
       foreach ($armbond as $entry) {
-    echo '<p> ' . "nafnkkk = " . $entry[0] . "." . " " . "verd = " .  $entry[2] . "." . '<br> <img src="' . $entry[1] .'">'. "." . " " . "uplisingar = " .  $entry[3] . '" style="width:304p"';
+    echo '<p> ' . "nafn: " . $entry[0] . "." . " " . "<br> uplisingar: " .  $entry[2] . "." . '<br> <img src="' . $entry[1] . '" style="width:304p"' .'">'. " " . "<br> verð: " .  $entry[3];
     }
+    echo "</div>";
 
     ?>
 
