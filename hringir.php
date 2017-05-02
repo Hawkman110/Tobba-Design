@@ -23,12 +23,21 @@
         <nav><ul> 
             <li><a href="index.html">Heim</a></li>
             <li><a href="armbond.php">Armbönd</a></li>
-            <li><a href="hringir.html">Hringir</a></li>
-            <li><a href="#">Hálsmenn</a></li>
-            <li><a href="#">Eyrnalokkar</a></li>
-            <li><a href="baetaArmbond.php">Bæta við </a></li>
+            <li><a href="hringir.php">Hringir</a></li>
+            <li><a href="halsmenn.php">Hálsmenn</a></li>
+            <li><a href="eyrnalokkar.php">Eyrnalokkar</a></li>
+            <li><a href="baetaHringir.php">Bæta við </a></li>
         </ul></nav>
     </header>
+
+       <?php
+      echo "<div class='skart'>";
+      foreach ($hringir as $entry) {
+    echo '<p> ' . "nafn: " . $entry[0] . "." . " " . "<br> uplisingar: " .  $entry[2] . "." . '<br> <img src="' . $entry[1] . '" style="width:304p"' .'">'. " " . "<br> verð: " .  $entry[3];
+    }
+    echo "</div>";
+
+    ?>
 
   </body>
 </html>

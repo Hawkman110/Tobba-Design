@@ -5,3 +5,5 @@ Haukur Óðinsson.   Lokaverkefni í VSH/GSÖ.
 Svo eru síðurnar þar sem maður skoðar skartgripina búnar til með php til að 
 seta inn og eyða myndum og uplísingum um skartgripi, Ég mun teingja síðuna við phpmyadmin til að
 geima gögn.
+
+Það er hægt að finna dagbókina í wiki tapinum.
