@@ -19,7 +19,7 @@ VALUES (\"$nafn\", \"$mynd\", \"$uplisingar\", \"$verd\" )";
 
 if ($conn->query($sql) === TRUE) {
 	echo "New record created successfully";
-	echo "<a href=\"http://tsuts.tskoli.is/2t/1801993229/TobbaD/armbond.html\">Fara til baka hérna</a>";
+	echo "<a href=\"http://tsuts.tskoli.is/2t/1801993229/TobbaD/armbond.php\">Fara til baka hérna</a>";
 
 } else {
 	echo "Error: " . $sql . "<br>" . $conn->error;

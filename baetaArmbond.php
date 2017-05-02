@@ -33,7 +33,7 @@
     <input type="text" placeholder="verð" name="verd" required>
 
     <label><b>Uplísingar</b></label>
-    <input type="text" placeholder="Uplsingar" name="uplsingar" required>
+    <input type="text" placeholder="Uplsingar" name="uplisingar" required>
 
     <button type="submit">Bæta við</button>
   </div>
