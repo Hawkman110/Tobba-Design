@@ -31,9 +31,9 @@
     </header>
 
     <?php
-      echo "<div class='skart'>";
+      echo "<div>";
       foreach ($armbond as $entry) {
-    echo '<p> ' . "nafn: " . $entry[0] . "." . " " . "<br> uplisingar: " .  $entry[2] . "." . '<br> <img src="' . $entry[1] . '" style="width:304p"' .'">'. " " . "<br> verð: " .  $entry[3];
+    echo "<p class= 'skart'> " . "nafn: " . $entry[0] . "." . " " . "<br> uplisingar: " .  $entry[2] . "." . '<br> <img src="' . $entry[1] . '" style="width:304p"' .'">'. " " . "<br> verð: " .  $entry[3];
     }
     echo "</div>";
 

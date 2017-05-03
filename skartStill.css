@@ -4,7 +4,7 @@ body {
   max-width:100%;
   margin: 0 auto;
   line-height: 1.4;
-  background-color: #FFCDD2;
+  background-color: #F4F4F4;
 }
 
 *,
@@ -16,7 +16,7 @@ body {
 }
 
 .skart{
-  float: left;
+  display: inline;
 }
 
 .grid {
@@ -66,7 +66,7 @@ label{
   padding: 10px;
   font-size: 20px;
   display: block;
-  background-color: #F06292;
+  background-color: #DCD0C0;
 }
 
 label span{
@@ -77,7 +77,7 @@ label span{
 header nav {
   
   text-align: center;
-  background-color: #F06292;
+  background-color: #DCD0C0;
   max-height: 0;
   overflow: hidden;
 }
@@ -85,7 +85,7 @@ header nav {
   header nav a{
   padding: 0.7em;
   border: 1px solid black;
-  background-color: #EC407A;
+  background-color: #373737;
   display: block;
   color: white;
   font-size: 1em;
@@ -96,7 +96,7 @@ header nav a:hover
   transition-property: background;
   transition-duration: 0.5s;
   transition-timing-function: linear; 
-  background-color: #880E4F;
+  background-color: #C0B283;
 }
 
 ul{
