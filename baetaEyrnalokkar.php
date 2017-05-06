@@ -38,7 +38,7 @@
     <button type="submit">Bæta við</button>
   </div>
 
-  <div class="container" style="background-color:#FFCDD2">
+  <div class="container" style="background-color:#F4F4F4">
     <a href="eyrnalokkar.php"><button type="button" class="cancelbtn">Cancel</button></a>
   </div>
 </form>

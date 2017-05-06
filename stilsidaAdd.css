@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Spirax');
 
 body {
-    background-color: #FFCDD2;
+    background-color: #F4F4F4;
 }
 
 /* Full-width inputs */
@@ -16,7 +16,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-    background-color: #F06292;
+    background-color: #373737;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -33,7 +33,7 @@ button:hover {
 /* Extra style for the cancel button */
 .cancelbtn {
     width: auto;
-    background-color: #F06292;
+    background-color: #373737;
 }
 
 /* Center the avatar image inside this container */
