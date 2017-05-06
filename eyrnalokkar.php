@@ -30,14 +30,14 @@
         </ul></nav>
     </header>
 
-          <?php
-      echo "<div class='skart'>";
-      foreach ($eyrnalokkar as $entry) {
-    echo '<p> ' . "nafn: " . $entry[0] . "." . " " . "<br> uplisingar: " .  $entry[2] . "." . '<br> <img src="' . $entry[1] . '" style="width:304p"' .'">'. " " . "<br> verð: " .  $entry[3];
-    }
-    echo "</div>";
-
+ <section class="wrapper">
+    <?php
+      foreach ($eyrnalokkar as $entry)
+      {
+        echo "<div class='kassi'> " . "nafn: " . $entry[0] . "." . " " . "<br> verð: " .  $entry[3] . "." . '<br> <img src="' . $entry[1] . '" style="width:380px"' .'">'. " " . "<br> uplisingar: " .  $entry[2] . "</div> ";
+      }
     ?>
+    </section>
 
   </body>
 </html>

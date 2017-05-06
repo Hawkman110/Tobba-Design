@@ -19,6 +19,19 @@ body {
   display: inline;
 }
 
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+}
+
+
+.kassi{
+  margin: 25px;
+  height: 300px;
+  width: 100%;
+}
+
 .grid {
   margin: 0 auto;
   width: 64em;     /*notið em, frekar en px, 960px;*/
@@ -33,6 +46,8 @@ footer {
 
 img{
   max-width: 100%;
+  min-height: 250px;
+  max-height: 250px;
 }
 
 header{
@@ -143,7 +158,9 @@ border: solid 0.5px black;
   }
 
   img{
-  max-width: 20%;
+  max-width: 100%;
+  min-height: 250px;
+  max-height: 250px;
 }
 
 header nav{
@@ -172,4 +189,11 @@ max-height: 500px;
 .col-1-2 {
   width: 50%;
 }
+
+.kassi{
+  margin top: 20px;
+  height: 300px;
+  width: 300px;
+}
+
 }
